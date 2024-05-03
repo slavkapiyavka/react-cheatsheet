@@ -10,11 +10,11 @@
 
 .main-header {
     grid-area: header;
-    padding: 8px;
 }
 
 .main-nav {
     grid-area: navigation;
+    overflow: auto;
     padding: 8px;
 }
 
