@@ -1,0 +1,25 @@
+.layout {
+    display: grid;
+    grid-template-areas: 'header header' 'navigation content';
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: min-content 1fr;
+    gap: 12px;
+    height: 100dvh;
+    margin: 0;
+}
+
+.main-header {
+    grid-area: header;
+    padding: 8px;
+}
+
+.main-nav {
+    grid-area: navigation;
+    padding: 8px;
+}
+
+.main {
+    grid-area: content;
+    overflow: auto;
+    padding: 8px;
+}
