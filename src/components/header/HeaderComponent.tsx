@@ -6,8 +6,8 @@ import {topics} from "@/shared/topics";
 import {usePathname} from "next/navigation";
 
 export default function HeaderComponent() {
-    const p = usePathname()
-    const pageTitle: any = topics.find((topic) => topic.link === p.replace('/', ''))
+    const pathname = usePathname()
+    const pageTitle: any = topics.find((topic) => topic.link === pathname.replace('/', ''))
 
     return (
         <header className="main-header">
