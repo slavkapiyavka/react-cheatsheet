@@ -1,3 +1,11 @@
+import {Metadata} from "next";
+
+export function generateMetadata(): Metadata {
+    return {
+        title: 'react - это... | Шпора'
+    }
+}
+
 export default function ReactIs() {
     return (
         <>

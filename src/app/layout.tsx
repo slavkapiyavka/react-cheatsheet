@@ -7,7 +7,7 @@ import "../styles/entry.css"
 const martianMono = Martian_Mono({ subsets: ['cyrillic', 'latin']})
 
 export const metadata: Metadata = {
-  title: "Главная | React",
+  title: "Главная | Шпора",
   description: "приложение шпаргалка по React",
 }
 
