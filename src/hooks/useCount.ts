@@ -1,10 +1,5 @@
 import {useCallback, useState} from "react";
-
-interface useCountInterface {
-    count: number,
-    decrement: () => void,
-    increment: () => void,
-}
+import {useCountInterface} from "@/shared/interfaces/useCountInterface";
 
 export function useCount(initialValue: number = 0): useCountInterface {
     let [count, setCount] = useState(initialValue)
