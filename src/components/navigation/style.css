@@ -9,6 +9,10 @@
 
 .nav-list-element {
     padding: 2px;
+
+    &[inert] .link {
+        color: #cdd1d4;
+    }
 }
 
 .link {
@@ -16,7 +20,7 @@
     display: block;
     padding: 2px 0;
     font-size: 14px;
-    color: #7b8894;
+    color: #2c73a8;
     text-decoration: none;
     transition: color 250ms;
 }
@@ -35,11 +39,11 @@
 }
 
 .link:hover {
-    color: #39526b;
+    color: #05365c;
 }
 
 .link_active {
-    color: #0b3662;
+    color: #0766ad;
 }
 
 .link:hover::after,
